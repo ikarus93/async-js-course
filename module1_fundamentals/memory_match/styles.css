@@ -1,0 +1,22 @@
+td {
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: blue;
+  color: blue;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+.open {
+  background-color: red;
+  color: white;
+}
+
+.matched {
+  background-color: purple;
+  color: white;
+}
