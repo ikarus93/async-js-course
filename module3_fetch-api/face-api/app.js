@@ -1,10 +1,13 @@
 const input = document.getElementById("input");
 const button = document.getElementById("analyse");
-button.addEventListener("click", analyze);
 const imageDiv = document.getElementById("image");
 const p = document.getElementById("p");
 const output = document.getElementById("output");
 const abs = "";
+
+
+button.addEventListener("click", analyze);
+
 function analyze() {
   clearDOM();
   
